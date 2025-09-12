@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dfdbdb;
+}
+/* Header styles */
+header {
+    background-color: #ffffff68;
+    padding: 10px 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    backdrop-filter: blur(5px);
+}
+.logo-part {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo {
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    background-image: url('https://picsum.photos/200/300');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.navi {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+.navigasi {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(49, 51, 85, 0.492);
+    border-radius: 10px;
+    padding: 7px;
+    gap: 7px;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    border: solid 1px rgba(255, 255, 255, 0);
+}
+.navigasi:hover {
+    background-color: rgb(3, 18, 182);
+    transition: 0.9s;
+    box-shadow: 0 0 10px 10px rgba(0, 98, 255, 0.2);
+    border: solid 1px rgb(255, 255, 255);
+}
+/* Hero */
+.hero {
+    color: rgb(255, 255, 255);
+    padding: 60px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 140px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1634172770871-28ab3ddb6a56?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-color: rgb(23, 39, 50);
+    background-size: cover;
+    background-blend-mode:color-dodge;
+    background-position: center;
+}
+.hero-image {
+    background-image: url('https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 35px 400px;
+    margin: 10px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+/* isi styles */
